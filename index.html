@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,
     initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UCI ENTREPRENEURSHIP POINTS</title>
+    <title>UCI Entrepreneurship </title>
     <style>
         #map{
             height:500px;
@@ -16,184 +16,20 @@
 <body>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <div class="w3-container w3-center w3-animate-left">
-    <h1>UC Irvine Entrepreneurship</h1>
+    <h1>UC Irvine Entrepreneurship </h1>
         <p>UCI provides world-class resources and opportunities for those interested in innovation and entrepreneurship.
             In total, there are <b>46</b> resources displayed.</p>
     </div>
     <div id="map"></div>
-    <script>
-        var map;
-        function initMap(){
-            map = new google.maps.Map(
-                document.getElementById('map'),
-                {center: new google.maps.LatLng(33.642466, -117.846760), zoom:15});
-
-            var iconBase =
-                'http://maps.google.com/mapfiles/kml/paddle/';
-
-            var icons = {
-                A: {
-                    icon: iconBase + 'A_maps.png'
-                },
-                B: {
-                    icon: iconBase + 'B_maps.png'
-                },
-                C: {
-                    icon: iconBase + 'C_maps.png'
-                },
-                D: {
-                    icon: iconBase + 'D_maps.png'
-                },
-                E: {
-                    icon: iconBase + 'E_maps.png'
-                },
-                F: {
-                    icon: iconBase + 'F_maps.png'
-                },
-                G: {
-                    icon: iconBase + 'G_maps.png'
-                },
-                H: {
-                    icon: iconBase + 'H_maps.png'
-                },
-                I: {
-                    icon: iconBase + 'I_maps.png'
-                },
-                J: {
-                    icon: iconBase + 'J_maps.png'
-                },
-                K: {
-                    icon: iconBase + 'K_maps.png'
-                },
-                L: {
-                    icon: iconBase + 'L_maps.png'
-                },
-                M: {
-                    icon: iconBase + 'M_maps.png'
-                },
-                N: {
-                    icon: iconBase + 'N_maps.png'
-                },
-                O: {
-                    icon: iconBase + 'O_maps.png'
-                },
-                P: {
-                    icon: iconBase + 'P_maps.png'
-                },
-                Q: {
-                    icon: iconBase + 'Q_maps.png'
-                }
-            };
-
-            var features = [
-                {
-                    position: new google.maps.LatLng(33.646141, -117.836847),
-                    type: 'A'
-                }, {
-                    position: new google.maps.LatLng(33.637999, -117.848972),
-                    type: 'B'
-                }, {
-                    position: new google.maps.LatLng(33.640518, -117.854019),
-                    type: 'C'                   
-                }, {
-                    position: new google.maps.LatLng(33.637865, -117.848768),
-                    type: 'D'
-                }, {
-                    position: new google.maps.LatLng(33.646734, -117.837912),
-                    type: 'E'
-                }, {
-                    position: new google.maps.LatLng(33.642851, -117.841210),
-                    type: 'F'
-                }, {
-                    position: new google.maps.LatLng(33.644128, -117.849978),
-                    type: 'G'
-                }, {
-                    position: new google.maps.LatLng(33.643445, -117.851898),
-                    type: 'H'
-                }, {
-                    position: new google.maps.LatLng(33.643363, -117.852373),
-                    type: 'I'
-                }, {
-                    position: new google.maps.LatLng(33.642643, -117.841532),
-                    type: 'J'
-                }, {
-                    position: new google.maps.LatLng(33.644586, -117.841346),
-                    type: 'K'
-                }, {
-                    position: new google.maps.LatLng(33.643814, -117.839102),
-                    type: 'L'
-                }, {
-                    position: new google.maps.LatLng(33.640457, -117.854091),
-                    type: 'M'
-                }, {
-                    position: new google.maps.LatLng(33.648856, -117.842119),
-                    type: 'N'
-                }, {
-                    position: new google.maps.LatLng(33.640504, -117.856120),
-                    type: 'O'
-                }, {
-                    position: new google.maps.LatLng(33.638142, -117.849181),
-                    type: 'P'
-                }, {
-                    position: new google.maps.LatLng(33.643681, -117.845301),
-                    type: 'Q'
-                }
-            ];
-
-            for (var i = 0; i < features.length; i++) {
-                var marker = new google.maps.Marker({
-                    position: features[i].position,
-                    icon: icons[features[i].type].icon,
-                    map: map
-                });
-            };
-        }
-                
-            
-
-    </script>
+    
+    <script src='index.js'></script>
     <script defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTiIXarvok90rXCrWzosQZaxZgbmPcYS0&callback=initMap">
     </script>
    
-   <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 14px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 16px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .collapsible:after {
-      content: '\002B';
-      color: white;
-      font-weight: bold;
-      float: right;
-      margin-left: 5px;
-    }
-    
-    .active:after {
-      content: "\2212";
-    }
-    
-    .content {
-      padding: 0 18px;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-      background-color: #f1f1f1;
-    }
-    </style>
-
+    <head>
+        <link rel='stylesheet' type ='text/css' href='index.css'>
+    </head>
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <div class="w3-container w3-center w3-animate-left">
@@ -480,16 +316,10 @@
     <h2>Guide</h2>
     </div>
         <iframe style="border:none" width="1900" height="450" src="https://whimsical.com/embed/FuC3VytPqkgBSRWFPZ5zyp"></iframe>
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <div class="w3-container w3-center w3-animate-left">
-    <h2>How to Keep Up with New Startups that Arise on Campus</h2>
-        <p>
-            The most efficient way to track down new startups is by predicting where startups would go for more resources and exposure. For example, by putting myself in an entrepreneur's shoes, I'd be on the lookout for news outlets from incubator/accelerator programs, research programs, and VC funds, and keeping an eye out for startups in competitions, such as hackathons and venture competitions. However, it can be a hassle catching up with all these sources, especially if they're all happening simultaneously. If I were a Student Partner at California Crescent Fund, my goal would be to make strong relationships with influential entrepreneurship departments and research centers. That way, Crescent Fund can come to terms and agreements with these programs and centers by notifying any startup to Crescent Fund and can let the entrepreneur know the firm can raise its capital. Also, suppose a company comes to Crescent Fund, and the firm feels as they need to incubate or accelerate the product for the product to reach product-market fit or more research to innovate their products. In that case, the firm can refer them to the same programs the firm initially came to terms and agreements with to make it a win-win situation. 
-            However, what if there is a startup at my university, which is at a pre-seed funding stage, that didn't get involved with any entrepreneurship opportunity that the school offered? How would I then find out about the startup? My solution to this would be to find or make a software application that would integrate various sites, such as LinkedIn, CrunchBase, YCombinator(its database), PitchBook, Facebook, Instagram, Twitter, and AngelList, that would allow the user to type in buzzwords like "UCI startup" or "California startup" to make it easier to source startups. That way I dont have to be hunting down the main medians to see if I could hopefully find a startup that hasn't came across the university's resources.
-            I understand that student startups can have considerable potential in not only improving our economy but also solving problems people face. By sourcing and familiarizing myself with upcoming startups to the fullest, I can help California Crescent Fund get intact with every startup at my school possible in order to help startups raise capital. One of my main goals is to make the California Crescent Fund get the recognition it deserves to help change the culture and inspire and encourage SoCal residents to create innovative products to start up their companies.
-        </p>
-    </div>    
-
+    <p>
+        <br>
+        <br>
+        <br>
+    </p>
 </body>
 </html>
