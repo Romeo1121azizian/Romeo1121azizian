@@ -1,4 +1,4 @@
-### Hi there 👋
+### Guiding Anteater Entreprenuers all the resources UCI has to offer 👋
 
 <!--
 **Romeo1121azizian/Romeo1121azizian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
