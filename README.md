@@ -1,6 +1,6 @@
 # Hey there, welcome to my portfolio website! 👋
 
-##Number of assignment points I think I deserve
+## Number of assignment points I think I deserve
 
 I believe I deserve a 11/10 for the following reasons:
     - Fulfilled all the requirements for HTML content CSS styling, and advance features
@@ -23,7 +23,7 @@ I believe I deserve a 11/10 for the following reasons:
 
 
 
-##Here is a list of all the requirements I fulfilled:
+## Here is a list of all the requirements I fulfilled:
 - HTML
     + Have at least one image, with descriptive alt attributes
     + Included appropriate headings and paragraph text
@@ -40,11 +40,11 @@ I believe I deserve a 11/10 for the following reasons:
     + Created a more complex page layout, such as including a navigation bar
     + Implemented a contact form which leverages HTML forms
 
-##Time it took
+## Time it took
 It took 660 minutes (11 hours in total). I created it from strach and discarded my old unfinished 
 portfolio. My goal was to make it the best I could as I want to display my website to employers asap
 
-##List of URLs consulted
+## List of URLs consulted
 https://www.youtube.com/watch?v=kltvOVOEmM0
 Used for the first 30 minutes as that created the strucutre of my site
 
