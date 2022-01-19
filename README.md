@@ -56,6 +56,11 @@ https://stackoverflow.com/
 Used for certain questions for HTML and CSS
     Such as: button layout, positioning, syntax, classes, etc.
 
+## List of classmates or individuals consulted
+No classmates were involved. Went to Office Hours with Professor Epstein for HTML positioning
+or responsive layout
+
+
 
 
 
