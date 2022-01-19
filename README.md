@@ -3,22 +3,22 @@
 ## Number of assignment points I think I deserve
 
 I believe I deserve a 11/10 for the following reasons:
-    - Fulfilled all the requirements for HTML content CSS styling, and advance features
-    - Have a responsive layout
-    - Passed all validation checks
-    - 100% embraced the spirit of the assignment
-        - Added clean images via a picture of the Dubai city
-        - Included a modal displaying my projects
-            - Outside project included images in the description of how the project functions.
-        - Focused on UIUX throughout the entire project
-            UX: 
-                - Easy to interact with the website
-                - Functionalities flow smoothly and are intuitive
-                - Buttons are clear and make users want to click on
-                    Such as: Navbar, Resume, and Modal buttons
-            UI:
-                - Used neat and clean aesthetic aspects
-                    Such as: Button styles, a theme (Dubai type-of-feel)
+- Fulfilled all the requirements for HTML content CSS styling, and advance features
+- Have a responsive layout
+- Passed all validation checks
+- 100% embraced the spirit of the assignment
+    - Added clean images via a picture of the Dubai city
+    - Included a modal displaying my projects
+        - Outside project included images in the description of how the project functions.
+    - Focused on UIUX throughout the entire project
+        - UX: 
+            - Easy to interact with the website
+            - Functionalities flow smoothly and are intuitive
+            - Buttons are clear and make users want to click on
+                - Such as: Navbar, Resume, and Modal buttons
+        - UI:
+            - Used neat and clean aesthetic aspects
+                - Such as: Button styles, a theme (Dubai type-of-feel)
         
 
 
